@@ -1,3 +1,5 @@
+// sum of all multiples of 3 or 5 below 1000
+
 import java.util.*;
 public class Multiples{
     public static void main(String args[]){
