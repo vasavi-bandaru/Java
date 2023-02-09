@@ -5,14 +5,7 @@ public class SumSqr{
         int ssum=(n*(n+1)*((2*n)+1))/6;
         int s=(n*(n+1))/2;
         int sum=s*s;
-        if(ssum>sum)
-        {
-        int res=ssum-sum;
-        }
-        else
-        {
-            int res=sum-ssum;
-        }
+        int res=sum-ssum
         System.out.println(res);
     }
 }
